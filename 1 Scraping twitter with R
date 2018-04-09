@@ -167,8 +167,4 @@ sadiq_words_counts %>%
   labs(title = "Word Network: Tweets sent to Sadiq Khan",
        subtitle = "Text mining twitter data ",
        x = "", y = "")
-install.packages("SnowballC")
-library(wordcloud)
-library(SnowballC)
-library(tm)
-sadiq_tweets_clean_text <- sapply(sadiq_tweets_clean, function(x) x$getText())
+
