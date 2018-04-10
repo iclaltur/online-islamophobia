@@ -143,15 +143,7 @@ sadiq_words_counts <- sadiq_tweets_filtered %>%
   count(word1, word2, sort = TRUE)
 
 head(sadiq_words_counts)
-## # A tibble: 6 x 3
-##           word1         word2     n
-##           <chr>         <chr> <int>
-## 1       climate        change  1282
-## 2 climatechange globalwarming   146
-## 3        global       warming   132
-## 4           sea       turtles   113
-## 5        sahara        desert    85
-## 6        arctic       climate    81
+
 
 library(igraph)
 library(ggraph)
